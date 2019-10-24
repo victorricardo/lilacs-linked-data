@@ -1,0 +1,211 @@
+<v1>CU1.1</v1>
+<v2>1</v2>
+<v3>
+      <a>QS18.2</a>
+      <b>Dov</b>
+      <c>video, (VHS), 2004, 001</c>
+</v3>
+<v4>VIMED</v4>
+<v5>N</v5>
+<v6>m</v6>
+<v7>001</v7>
+<v9>g</v9>
+<v16>
+Dovale Borjas, Caridad
+      <s1>ICBP Victoria de Gir贸n</s1>
+      <c>La Habana</c>
+      <p>Cuba</p>
+</v16>
+<v18>Anatomia I: clases 1y2
+      <i>es</i>
+</v18>
+<v38>
+      <b>ilus</b>
+      <a>videocassete (VHS) (1h25min)</a>
+</v38>
+<v40>es</v40>
+<v62>s.n</v62>
+<v64>2004</v64>
+<v65>20040000</v65>
+<v66>La Habana</v66>
+<v67>CU</v67>
+<v71>Clases</v71>
+<v76>Humanos</v76>
+<v83>
+El presente video contiene dos tele conferencias dirigidas a los estudiantes de primer semestre de la carrera de medicina. En la Clase 1 se analizan generalidades de la Anatom铆a y del aparato locomotor, haciendo 茅nfasis en: su concepto, funci贸n partes que lo constituyen y en los aspectos de osteolog铆a , (concepto, funciones de los huesos, constituci贸n qu铆mica y propiedades f铆sicas, tejidos que los constituyen y clasificaci贸n internacional).  En la Clase 2 se analizan las generalidades de las articulaciones haciendo 茅nfasis en su concepto funci贸n y clasificaci贸n 
+      <i>es</i>
+</v83>
+<v84>2012-09-12</v84>
+<v87>
+      <d>Anatom铆a</d>
+      <s>educ</s>
+   </v87>
+<v87>
+      <d>Huesos</d>
+   </v87>
+<v87>
+      <d>Esqueleto</d>
+   </v87>
+<v87>
+      <d>Actividad Motora</d>
+   </v87>
+<v87>
+      <d>Articulaciones</d>
+   </v87>
+<v87>
+      <d>Artrograf铆a</d>
+   </v87>
+<v91>
+20090302
+      <i>13:33:07</i>
+      <f>14:23:58</f>
+      <t>0:50:51</t>
+</v91>
+<v92>JANIS</v92>
+<v98>FONTE</v98>
+<v101>
+      <i>yanetl 36100639</i>
+      <t>201202061010</t>
+      <x>1328541017</x>
+</v101>
+<v110>|</v110>
+<v114>v</v114>
+<v899>LILDBI-WEB 1.7</v899>
+<v93>
+20120913
+      <i>10:17:53</i>
+      <f>10:18:06</f>
+      <t>0:0:13</t>
+</v93>
+
+
+{
+  "@context": "http://lildbi.sld.cu/ctx/context.jsonld",
+  "@id": "http://lildbi.sld.cu/document/394",
+  "@type": "schema:VideoObject",
+  "author":{
+     "@id": "http://lildbi.sld.cu/person/813",
+     "name": "Dovale Borjas, Caridad",
+     "affiliation": {
+         "@id": "http://lildbi.sld.cu/organization/CM_VG",
+         "branchCode": "CM_VG",
+         "name": {
+           "@value": "ICBP Victoria de Gir髇",
+           "@language": "es"
+         }
+     },
+     "address": {
+        "addresLocality": "La Habana",
+        "addressCountry": "Cuba"
+     }
+  }, 
+  "name": {
+      "@value": "Anatomia I: clases 1y2",
+      "@language": "es"
+  },
+  "inLanguaje": "es",
+  "datePublished": "2004-00-00",
+  "publication": {
+      "startDate": "2004-00-00",
+      "location": {
+         "addressLocality": "La Habana",
+         "addressCountry": "CU"
+       }
+  },
+  "genre": "Clases",
+  "provider": {
+      "@id": "http://lildbi.sld.cu/organization/CU1.1",
+      "branchCode": "CU1"
+   },
+   "about": [
+    {
+      "@value": "Humanos",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Anatom韆-educ",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Huesos",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Esqueleto",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Actividad Motora",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Articulaciones",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Artrograf韆",
+      "@language": "es"
+    }
+   ],  
+   "description": {
+      "@value": "El presente video contiene dos tele conferencias dirigidas a los estudiantes de primer semestre de la carrera de medicina. En la Clase 1 se analizan generalidades de la Anatom铆a y del aparato locomotor, haciendo 茅nfasis en: su concepto, funci贸n partes que lo constituyen y en los aspectos de osteolog铆a , (concepto, funciones de los huesos, constituci贸n qu铆mica y propiedades f铆sicas, tejidos que los constituyen y clasificaci贸n internacional).  En la Clase 2 se analizan las generalidades de las articulaciones haciendo 茅nfasis en su concepto funci贸n y clasificaci贸n",
+      "@language": "en"
+    }, 
+   "_id": 1,
+   "typeOfLiterature": "No Convencional",
+   "levelOfTreatment": "monogr醘ico",
+   "database": "VIMED",
+   "locatedIn": {
+      "institution":{
+        "@id": "http://lildbi.sld.cu/organization/CU1.1",
+        "branchCode": "CU1.1"
+      },  
+      "clasificationNumber": "QS18.2",
+      "autorNumber": "Dov",
+      "parts": "video, (VHS), 2004, 001",
+      "inventory": "001" 
+   },
+   "subjectLimit": {
+      "@value": "Humanos",
+      "@language": "es"
+    }, 
+   "primarySubject":[
+    {
+      "@value": "Anatom韆-educ",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Huesos",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Esqueleto",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Actividad Motora",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Articulaciones",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Artrograf韆",
+      "@language": "es"
+    }
+   ], 
+   "descriptiveInformation": {
+      "detailType": "ilus",
+      "detailDescription": "videocassete (VHS) (1h25min)",
+      "@language": "es"
+    },
+   "specificForm":{
+      "@value": "Grabaci髇 en video",
+      "@language": "es"
+    },
+   "registerCreationDate": "2009/03/02",
+   "registerModificationDate": "2012/09/13",
+   "transferToDB": "2012-09-12",
+   "documentalist": "JANIS"
+}

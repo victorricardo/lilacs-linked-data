@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+   xmlns:owl="http://www.w3.org/2002/07/owl#" 
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/" 
+   xmlns:dcterms="http://purl.org/dc/terms/",
+   xmlns:lilacs="http://lilacs.sld.cu/" 
+   xml:base="http://schema.org/" >   <!--es lilacs o http://schema.org/ ??-->  
+   
+   <owl:ontology rdf:about="http://lilacs.sld.cu/">
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:annotationproperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <owl:annotationproperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://lilacs.sld.cu/_id -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/_id">
+        <rdfs:label xml:lang="en">_id</rdfs:label>
+        <rdfs:comment xml:lang="es">Identificador del documento según la Institución proveedora de la información.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Number">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/typeOfLiterature -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/typeOfLiterature">
+        <rdfs:label xml:lang="en">typeOfLiterature</rdfs:label>
+        <rdfs:comment xml:lang="es">Código que identifica el Tipo de Literatura del documento de acuerdo a las categorías sugeridas por UNISIST: Serie,Monografia,Tesis,No convencional,Conferencia,Proyecto</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/levelOfTreatment -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/levelOfTreatment">
+        <rdfs:label xml:lang="en">levelOfTreatment</rdfs:label>
+        <rdfs:comment xml:lang="es">Nivel monográfico(m), Nivel monográfico de colección(mc), Nivel monográfico de serie(ms), Nivel analítico monográfico(am), Nivel analítico monográfico de colección(amc), Nivel analítico monográfico de serie(ams), Nivel analítico de serie(as), Nivel colección(c)</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/database -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/database">
+        <rdfs:label xml:lang="en">database</rdfs:label>
+        <rdfs:comment xml:lang="es">Nombre de la base de datos en la cual está o se desa que esté el registro.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/locatedIn -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/locatedIn">
+        <rdfs:label xml:lang="en">locatedIn</rdfs:label>
+        <rdfs:comment xml:lang="es">Institución que posee el documento y nro de localización física del documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                    <rdf:description rdf:about="http://schema.org/Organization">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalLocalization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/institution -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/institution">
+        <rdfs:label xml:lang="en">institution</rdfs:label>
+        <rdfs:comment xml:lang="es">Institución que posee el documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Organization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalLocalization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/registerNumber">
+        <rdfs:label xml:lang="en">registerNumber</rdfs:label>
+        <rdfs:comment xml:lang="es">N�mero �nico secuencial atribuido al documento por la Instituci�n Procesadora, de acuerdo con su entrada en la biblioteca</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Number">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/electronicAddress -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/electronicAddress">
+        <rdfs:label xml:lang="en">electronicAddress</rdfs:label>
+        <rdfs:comment xml:lang="es">Dirección del tipo de acceso a la información por dispositivo o medio electrónico de comunicación.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/WebResource">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/fullText -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/fullText">
+        <rdfs:label xml:lang="en">fullText</rdfs:label>
+        <rdfs:comment xml:lang="es">Si en la dirección electrónica el documento disponible es el texto completo (o no).</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Boolean">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/WebResource">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+
+    <!-- http://lilacs.sld.cu/fileExtension -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/fileExtension">
+        <rdfs:label xml:lang="en">fileExtension</rdfs:label>
+        <rdfs:comment xml:lang="es">Extensión del archivo: html, php,... Ver Anexo VI </rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/WebResource">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/password -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/password">
+        <rdfs:label xml:lang="en">password</rdfs:label>
+        <rdfs:comment xml:lang="es">Clave (Ejemplo para FTP = anonymous) </rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/WebResource">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/logon -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/logon">
+        <rdfs:label xml:lang="en">logon</rdfs:label>
+        <rdfs:comment xml:lang="es">Logon </rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/WebResource">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/notPublicNote -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/notPublicNote">
+        <rdfs:label xml:lang="en">notPublicNote</rdfs:label>
+        <rdfs:comment xml:lang="es">Nota no publica </rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/WebResource">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/publicNote -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/publicNote">
+        <rdfs:label xml:lang="en">publicNote</rdfs:label>
+        <rdfs:comment xml:lang="es">Nota publica </rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/WebResource">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/project -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/project">
+        <rdfs:label xml:lang="en">project</rdfs:label>
+        <rdfs:comment xml:lang="es">Documento referente a un proyecto, o el proyecto propiamente dicho.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/Project">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/descriptiveInfo -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/descriptiveInfo">
+        <rdfs:label xml:lang="en">descriptiveInfo</rdfs:label>
+        <rdfs:comment xml:lang="es">Descripción de detalles físicos del documento, material ilustrativo que acompaña al documento y otras informaciones descriptivas.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://http://lilacs.sld.cu/PhysicalDetail">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/documentType -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/documentType">
+        <rdfs:label xml:lang="en">documentType</rdfs:label>
+        <rdfs:comment xml:lang="es">Tipo de documento, según categorías MARC.(textual, mapa, visual, musica, ...) Detalles en specificForm.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/itemForm -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/itemForm">
+        <rdfs:label xml:lang="en">itemForm</rdfs:label>
+        <rdfs:comment xml:lang="es">Código que identifica la forma del item, conforme la tabla sugerida por MARC.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/typeComputerFile -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/typeComputerFile">
+        <rdfs:label xml:lang="en">typeComputerFile</rdfs:label>
+        <rdfs:comment xml:lang="es">Código que identifica el tipo de archivo de computador, conforme la tabla sugerida por MARC.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/typeCartographic -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/typeCartographic">
+        <rdfs:label xml:lang="en">typeCartographic</rdfs:label>
+        <rdfs:comment xml:lang="es">Código que identifica el tipo de �tem cartogr�fico (no libro), conforme la tabla sugerida por MARC.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/typeSerial -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/typeSerial">
+        <rdfs:label xml:lang="en">typeSerial</rdfs:label>
+        <rdfs:comment xml:lang="es">Código que identifica el tipo de peri�dico, conforme la tabla sugerida por MARC.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/typeVisual -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/typeVisual">
+        <rdfs:label xml:lang="en">typeVisual</rdfs:label>
+        <rdfs:comment xml:lang="es">Código que identifica el tipo de material visual, conforme la tabla sugerida por MARC.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/typeNoProjectable -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/typeNoProjectable">
+        <rdfs:label xml:lang="en">typeNoProjectable</rdfs:label>
+        <rdfs:comment xml:lang="es">Código que identifica la designación especifica del material no proyectable, conforme la tabla sugerida por MARC.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/totalVolumes -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/totalVolumes">
+        <rdfs:label xml:lang="en">totalVolumes</rdfs:label>
+        <rdfs:comment xml:lang="es">Número total de volúmenes que componen una colección.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Number">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/subjectLimit -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/subjectLimit">
+        <rdfs:label xml:lang="en">subjectLimit</rdfs:label>
+        <rdfs:comment xml:lang="es">Términos que definen conceptos predeterminados por el sistema de indización y que se encuentran en casi todos los documentos</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                    <rdf:description rdf:about="http://schema.org/Url">
+                    <rdf:description rdf:about="http://schema.org/Topic">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/primarySubject -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/primarySubject">
+        <rdfs:label xml:lang="en">primarySubject</rdfs:label>
+        <rdfs:comment xml:lang="es">Descriptores mas significativos para el doc, extraídos del DeCS para representar el contenido temático principal del documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                    <rdf:description rdf:about="http://schema.org/Url">
+                    <rdf:description rdf:about="http://schema.org/Topic">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/secondarySubject -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/secondarySubject">
+        <rdfs:label xml:lang="en">secondarySubject</rdfs:label>
+        <rdfs:comment xml:lang="es">Descriptores extraídos del DeCS para representar el contenido temático secundario del documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                    <rdf:description rdf:about="http://schema.org/Url">
+                    <rdf:description rdf:about="http://schema.org/Topic">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/symbol -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/symbol">
+        <rdfs:label xml:lang="en">symbol</rdfs:label>
+        <rdfs:comment xml:lang="es">Código alfanumérico usado por algunas organizaciones para identificar sus publicaciones, informes, oficios, etc.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/region -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/region">
+        <rdfs:label xml:lang="en">region</rdfs:label>
+        <rdfs:comment xml:lang="es">Términos que no constan en DeCS usados para representar otras localidades.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/localSubject -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/localSubject">
+        <rdfs:label xml:lang="en">localSubject</rdfs:label>
+        <rdfs:comment xml:lang="es">Descriptores definidos por la institución, no contenidos en el DeCS, para representar el contenido temático del documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/totalReferences -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/totalReferences">
+        <rdfs:label xml:lang="en">totalReferences</rdfs:label>
+        <rdfs:comment xml:lang="es">Número total de referencias bibliográficas presentadas en un documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Integer">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/temporalSubject -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/temporalSubject">
+        <rdfs:label xml:lang="en">temporalSubject</rdfs:label>
+        <rdfs:comment xml:lang="es">Período correspondiente al contenido temático del documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/Period">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/documentalist -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/documentalist">
+        <rdfs:label xml:lang="en">documentalist</rdfs:label>
+        <rdfs:comment xml:lang="es">Iniciales en  mayúsculas de la persona responsable por la descripción del documento y análisis.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                    <rdf:description rdf:about="http://schema.org/Person">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    
+    <!-- http://lilacs.sld.cu/tutor -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/tutor">
+        <rdfs:label xml:lang="en">tutor</rdfs:label>
+        <rdfs:comment xml:lang="es">Persona responsable por la orientación o coorientación de la tesis o disertación.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Person">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Thesis">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/presentedTo -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/presentedTo">
+        <rdfs:label xml:lang="en">presentedTo</rdfs:label>
+        <rdfs:comment xml:lang="es">Institución a la cual se presenta la tesis o disertación como requisito para la obtención de un grado o título académico.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Organization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Thesis">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    
+    <!-- http://lilacs.sld.cu/note -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/note">
+        <rdfs:label xml:lang="en">internalNote</rdfs:label>
+        <rdfs:comment xml:lang="es">Información adicional relativa al documento.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/Note">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/motivation -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/motivation">
+        <rdfs:label xml:lang="en">motivation</rdfs:label>
+        <rdfs:comment xml:lang="en">The type of/reason for the annotation.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/Note">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+
+    <!-- http://lilacs.sld.cu/body -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/body">
+        <rdfs:label xml:lang="en">body</rdfs:label>
+        <rdfs:comment xml:lang="en">The content of the annotation.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/Note">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/clinicEssayNumber -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/clinicEssayNumber">
+        <rdfs:label xml:lang="en">clinicEssayNumber</rdfs:label>
+        <rdfs:comment xml:lang="es">Nombre de la base de datos y número del registro del Ensayo Clínico y/o Ensayo Controlado Aleatório que lo identifica internacionalmente</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/transferToDB -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/transferToDB">
+        <rdfs:label xml:lang="en">transferToDB</rdfs:label>
+        <rdfs:comment xml:lang="es">Fecha referente al envío de registro para la base de datos</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Date">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/dateTransfered -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/dateTransfered">
+        <rdfs:label xml:lang="en">dateTransfered</rdfs:label>
+        <rdfs:comment xml:lang="es">Fecha de la última actualización de originalRecord en la BD actual.</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Date">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/sourceModified -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/sourceModified">
+        <rdfs:label xml:lang="en">sourceModified</rdfs:label>
+        <rdfs:comment xml:lang="es">Fecha de la última modificación (en registro original)</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Date">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- http://lilacs.sld.cu/originalRecord -->
+
+    <owl:objectproperty rdf:about="http://lilacs.sld.cu/originalRecord">
+        <rdfs:label xml:lang="en">originalRecord</rdfs:label>
+        <rdfs:comment xml:lang="es">Registro original de LILACS (sin traducir).</rdfs:comment>
+        <rdfs:range>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/Text">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:objectproperty>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/clasificationNumber">
+        <rdfs:label xml:lang="en">clasificationNumber</rdfs:label>
+        <rdfs:comment xml:lang="es">Número de clasificación (NLM, CDU, DEWEY, etc.) del documento.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalLocalization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+
+    <!-- http://lilacs.sld.cu/authorNumber -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/authorNumber">
+        <rdfs:label xml:lang="en">authorNumber</rdfs:label>
+        <rdfs:comment xml:lang="es">Número del autor (CUTTER, PHA, etc.)</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalLocalization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+    
+    
+    <!-- http://lilacs.sld.cu/inventory -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/inventory">
+        <rdfs:label xml:lang="en">inventory</rdfs:label>
+        <rdfs:comment xml:lang="es">Número único secuencial atribuido al documento por la Institución Procesadora, de acuerdo con su entrada en la biblioteca.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/PhysicalLocalization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </owl:datatypeproperty>
+
+    <!-- http://lilacs.sld.cu/parts -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/parts">
+        <rdfs:label xml:lang="en">parts</rdfs:label>
+        <rdfs:comment xml:lang="es">Información referente al volumen, tomo, parte, número de ejemplar</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalLocalization">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+    
+    <!-- http://lilacs.sld.cu/graficMaterial -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/graficMaterial">
+        <rdfs:label xml:lang="en">graficMaterial</rdfs:label>
+        <rdfs:comment xml:lang="es">Tipo de material ilustrativo que acompa�a al documento: ilustraciones, mapas, graficos, tablas</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalDetail">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+
+    <!-- http://lilacs.sld.cu/specificInfo -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/specificInfo">
+        <rdfs:label xml:lang="en">specificInfo</rdfs:label>
+        <rdfs:comment xml:lang="es">Descripción del ítem – cantidad, designación específica del material (nombre del material), tiempo total del ítem descripto</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalDetail">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+
+     <!-- http://lilacs.sld.cu/dimension -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/dimension">
+        <rdfs:label xml:lang="en">dimension</rdfs:label>
+        <rdfs:comment xml:lang="es">Dimensión: expresada en centímetros, milímetros, pulgadas.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalDetail">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+   
+     <!-- http://lilacs.sld.cu/enclosedMaterial -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/enclosedMaterial">
+        <rdfs:label xml:lang="en">enclosedMaterial</rdfs:label>
+        <rdfs:comment xml:lang="es">Material acompañante, su descripción física.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/PhysicalDetail">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+
+     <!-- http://lilacs.sld.cu/projectNumber -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/projectNumber">
+        <rdfs:label xml:lang="en">projectNumber</rdfs:label>
+        <rdfs:comment xml:lang="es">Número del proyecto.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://lilacs.sld.cu/Project">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+
+    <!-- http://lilacs.sld.cu/tomo -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/tomo">
+        <rdfs:label xml:lang="en">tomo</rdfs:label>
+        <rdfs:comment xml:lang="es">Información referente subdivisión de tomo en un volumen</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+    
+    <!-- http://lilacs.sld.cu/part -->
+
+    <owl:datatypeproperty rdf:about="http://lilacs.sld.cu/part">
+        <rdfs:label xml:lang="en">part</rdfs:label>
+        <rdfs:comment xml:lang="es">Información referente subdivisión de parte en un volumen</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal">
+        <rdfs:domain>
+            <owl:class>
+                <owl:unionof rdf:parsetype="Collection">
+                    <rdf:description rdf:about="http://schema.org/CreativeWork">
+                </rdf:description></owl:unionof>
+            </owl:class>
+        </rdfs:domain>
+    </rdfs:range></owl:datatypeproperty>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://lilacs.sld.cu/PhysicalLocalization -->
+
+    <owl:class rdf:about="http://lilacs.sld.cu/PhysicalLocalization">
+        <rdfs:label xml:lang="en">PhysicalLocalization</rdfs:label>
+        <rdfs:subclassof rdf:resource="http://schema.org/StructuredValue">
+        <rdfs:comment xml:lang="es">Localización física de un documento LILACS, compuesto por institución y #clasificacion del doc, #del autor, volumen, tomo, inventario</rdfs:comment>
+    </rdfs:subclassof></owl:class>
+
+    <!-- http://lilacs.sld.cu/PhysicalDetail -->
+
+    <owl:class rdf:about="http://lilacs.sld.cu/PhysicalDetail">
+        <rdfs:label xml:lang="en">PhysicalDetail</rdfs:label>
+        <rdfs:subclassof rdf:resource="http://schema.org/StructuredValue">
+        <rdfs:comment xml:lang="es">Detalles físicos de un documento</rdfs:comment>
+    </rdfs:subclassof></owl:class>
+
+    <!-- http://lilacs.sld.cu/WebResource -->
+
+    <owl:class rdf:about="http://lilacs.sld.cu/WebResource">
+        <rdfs:label xml:lang="en">WebResource</rdfs:label>
+        <rdfs:subclassof rdf:resource="http://schema.org/StructuredValue">
+        <rdfs:comment xml:lang="es">Localización del documento LILACS, en la web. Compuesto por url, idioma, formato del fichero, extensi�n</rdfs:comment>
+    </rdfs:subclassof></owl:class>
+
+    <!-- http://lilacs.sld.cu/Period -->
+
+    <owl:class rdf:about="http://lilacs.sld.cu/Period">
+        <rdfs:label xml:lang="en">Period</rdfs:label>
+        <rdfs:subclassof rdf:resource="http://schema.org/StructuredValue">
+        <rdfs:comment xml:lang="es">Período definido por fecha inicio y fecha fin.</rdfs:comment>
+    </rdfs:subclassof></owl:class>
+
+    <!-- http://lilacs.sld.cu/Project -->
+
+    <owl:class rdf:about="http://lilacs.sld.cu/Project">
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+        <rdfs:subclassof rdf:resource="http://schema.org/StructuredValue">
+        <rdfs:comment xml:lang="es">Proyecto definido por nombre, institucion patrocinadora y numero.</rdfs:comment>
+    </rdfs:subclassof></owl:class>
+
+   </owl:ontology>
+</rdf:RDF>

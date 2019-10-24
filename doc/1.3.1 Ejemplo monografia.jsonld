@@ -1,0 +1,225 @@
+<v1>CU1</v1>
+<v2>2</v2>
+<v3>BMN (Ref)</v3>        
+<v4>BIBMED</v4>
+<v5>M</v5>
+<v6>m</v6>
+<v16>Berenzon S</v16>
+<v16>L¢pez JEK</v16>
+<v16>Medina MME</v16>
+<v16>Villatoro JA</v16>
+<v16>Ju rez F</v16>
+<v16>Carre¤o S</v16>
+<v16>et al.</v16>
+<v18>
+Relaci¢n entre consumo de inhalables y actos antisociales en una muestra de estudiantes del Distrito Federal. Anales del IMP. Rese¤a IX, 1994
+</v18>
+<v20>[]</v20>
+<v40>Es</v40>
+<v61>
+Bibliograf¡a de Adicciones 2 (en CD-ROM) Consejo Nacional contra las Adicciones y Universidad de Colima. Centro Nacional Editor de Discos Compactos
+</v61>
+<v62>CENEDIC</v62>
+<v63>2da</v63>
+<v64>1995</v64>
+<v65>19950000</v65>
+<v66>Colima</v66>
+<v67>MEXICO</v67>
+<v87>TRASTORNOS RELACIONADOS CON SUSTANCIAS</v87>
+<v90>b</v90>
+<v91>19990205</v91>
+<v92>DSR</v92>
+
+{
+  "@context": "http://lildbi.sld.cu/ctx/context.jsonld",
+  "@id" : "http://lildbi.sld.cu/document/234",
+  "@type": "Book",
+  "author":[{
+     "@id" : "http://lildbi.sld.cu/entity/person/83",
+     "name": "Berenzon S"
+    }, 
+    {
+     "@id" : "http://lildbi.sld.cu/entity/person/111",
+     "name": "L¢pez JEK"
+    }, 
+    {
+     "@id" : "http://lildbi.sld.cu/entity/person/89",
+     "name": "Medina MME"
+    }, 
+    {
+     "@id" : "http://lildbi.sld.cu/entity/person/93",
+     "name": "Villatoro JA"
+    }, 
+    {
+     "@id" : "http://lildbi.sld.cu/entity/person/458",
+     "name": "Ju rez F"
+    }, 
+    {
+     "@id" : "http://lildbi.sld.cu/person/56",
+     "name": "Carre¤o S"
+    } 
+  ],
+  "name": {
+      "@value" : "Relaci¢n entre consumo de inhalables y actos antisociales en una muestra de estudiantes del Distrito Federal. Anales del IMP. Rese¤a IX, 1994",
+      "@language" : "es"
+  },
+  "note": {
+      "motivation" : "Interna",
+      "body": "Bibliograf¡a de Adicciones 2 (en CD-ROM) Consejo Nacional contra las Adicciones y Universidad de Colima. Centro Nacional Editor de Discos Compactos",
+      "@language" : "es"
+  }, 
+  "inLanguaje": "es",
+  "datePublished": "1995",
+  "publication": {
+      "startDate" : "1995",
+      "location" : {
+         "addressLocality" : "Colima",
+         "addressCountry" : "MEXICO"
+       }
+  },
+  "bookEdition": "2da",
+  "provider": {
+      "@id" : "http://lildbi.sld.cu/organization/CU1",
+      "branchCode" : "CU1",
+      "name" : {
+         "@value" : "Biblioteca Médica Nacional",
+         "@language" : "es"
+       }
+   },
+   "about": {
+      "@value" : "TRASTORNOS RELACIONADOS CON SUSTANCIAS",
+      "@language" : "es"
+    }, 
+   "_id": 2,
+   "typeOfLiterature": "Monografía",
+   "levelOfTreatment": "monográfico",
+   "database": "BIBMED",
+   "locatedIn": {
+      "institution":{
+        "@id" : "http://lildbi.sld.cu/organization/CU1",
+        "branchCode" : "CU1",
+        "name" : {
+           "@value" : "Biblioteca Médica Nacional",
+           "@language" : "es"
+        }
+   },
+   "primarySubject":{
+      "@value" : "TRASTORNOS RELACIONADOS CON SUSTANCIAS",
+      "@language" : "es"
+    }, 
+   "registerCreationDate": "1999/02/05",
+   "documentalist": "DSR"
+}
+
+
+
+<v1>CU1</v1>
+<v2>2</v2>
+<v3>WU140
+      <a>Est</a>
+      <b>1985</b>
+   </v3>
+<v4>LIFMED</v4>
+<v5>M</v5>
+<v6>m</v6>
+<v16>Dechaume, M</v16>
+<v18>Estomatología</v18>
+<v20>viii,444</v20>
+<v38>ilus</v38>
+<v40>Es</v40>
+<v61>Existen dos ejemplares</v61>
+<v62>Ministerio de Cultura</v62>
+<v64>1985</v64>
+<v66>La Habana</v66>
+<v67>Cuba</v67>
+<v87>
+      <d>ENFERMEDADES DE LA BOCA</d>
+   </v87>
+<v100>
+M. Dechaume.../et.al/; versión castellana A. Jornet Cases
+</v100>
+<v110>         ???? aqui debe ir una sola letra
+
+      <i>ROSA169124504</i>
+      <t>200406181617</t>
+      <x>1087589835</x>
+   
+</v110>
+<v500>Notas al pie de las páginas</v500>
+<v93>
+20130816
+      <i>10:31:45</i>
+      <f>10:33:12</f>
+      <t>0:1:27</t>
+</v93>
+{
+  "@context": "http://lildbi.sld.cu/ctx/context.jsonld",
+  "@id" : "http://lildbi.sld.cu/document/345",
+  "@type": "Book",
+  "author": {
+     "@id" : "http://lildbi.sld.cu/person/83",
+     "name": "Dechaume, M"
+  }, 
+  "name": {
+      "@value" : "Estomatología",
+      "@language" : "es"
+  },
+  "note": [
+    {
+      "motivation" : "Interna",
+      "body": "Existen dos ejemplares",
+      "@language" : "es"
+    }, 
+    {
+      "motivation" : "General",
+      "body": "Notas al pie de las páginas",
+      "@language" : "es"
+    }
+  ], 
+  "inLanguaje": "es",
+  "pagination": "viii,444",
+  "datePublished": "1985",
+  "publication": {
+      "startDate" : "1985",
+      "location" : {
+         "addressLocality" : "La Habana",
+         "addressCountry" : "CUBA"
+       }
+  },
+  "publisher": {
+      "@id" : "http://lildbi.sld.cu/organization/21",
+      "name" : {
+         "@value" : "Ministerio de Cultura",
+         "@language" : "es"
+       }
+   },
+  "provider": {
+      "@id" : "http://lildbi.sld.cu/organization/1",
+      "branchCode" : "CU1",
+      "name" : {
+         "@value" : "Biblioteca Médica Nacional",
+         "@language" : "es"
+       }
+   },
+   "about": {
+      "@value" : "ENFERMEDADES DE LA BOCA",
+      "@language" : "es"
+    }, 
+   "_id": 2,
+   "typeOfLiterature": "Monografía",
+   "levelOfTreatment": "monográfico",
+   "database": "LIFMED",
+   "locatedIn": {
+      "institution":{
+        "@id" : "http://lildbi.sld.cu/organization/WU140",
+        "branchCode" : "WU140"
+      },  
+      "clasificationNumber": "Est",
+      "autorNumber": "1985"
+   },
+   "primarySubject":{
+      "@value" : "ENFERMEDADES DE LA BOCA",
+      "@language" : "es"
+    }, 
+   "registerModificationDate": "2013/08/16"
+}

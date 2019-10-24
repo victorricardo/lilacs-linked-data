@@ -1,0 +1,176 @@
+<v1>CU1.1</v1>
+<v2>1</v2>
+<v3>
+CU1.1
+      <a>WJ 400</a>
+      <b>Cos</b>
+      <c>1948,</c>
+</v3>
+<v4>TEMED</v4>
+<v5>T</v5>
+<v6>m</v6>
+<v7>4964</v7>
+<v9>a</v9>
+<v16>Costo Navas, José Adolfo</v16>
+<v18>
+Implantación ureteral doble y cistectomía total en un solo tiempo
+      <i>es</i>
+</v18>
+<v20>61</v20>
+<v38>
+      <b>ilus</b>
+   </v38>
+<v40>es</v40>
+<v50>Universidad de La Habana. Facultad de Medicina</v50>
+<v51>Doctor</v51>
+<v62>s.n</v62>     Editora
+<v64>1948</v64>
+<v65>19480000</v65>
+<v66>La Habana</v66>
+<v67>CU</v67>
+<v76>
+      <d>Humanos</d>
+   </v76>
+<v76>
+      <d>Femenino</d>
+   </v76>
+<v84>2010-06-22</v84>
+<v87>
+      <d>Uréter</d>
+      <s>cirug</s>
+   </v87>
+<v87>
+      <d>Cistectomía</d>
+      <s>métodos</s>
+   </v87>
+<v91>
+20100530
+      <i>17:33:19</i>
+      <f>17:40:06</f>
+      <t>0:6:47</t>
+   
+</v91>
+<v92>MMM</v92>
+<v98>FONTE</v98>
+<v110>|</v110>
+<v500>Urología</v500>
+<v899>LILDBI-WEB 1.7</v899>
+<v93>
+20131003
+      <i>08:36:41</i>
+      <f>08:36:48</f>
+      <t>0:0:7</t>
+   
+</v93>
+
+{
+  "@context": "http://lildbi.sld.cu/ctx/context.jsonld",
+  "@id": "http://lildbi.sld.cu/document/222",
+  "@type": "schema:Thesis",
+  "author": {
+     "@id": "http://lildbi.sld.cu/person/38",
+     "name": "Costo Navas, José Adolfo" 
+  }, 
+  "name": {
+      "@value": "Implantación ureteral doble y cistectomía total en un solo tiempo",
+      "@language": "es"
+  }, 
+  "inLanguaje": "es",
+  "datePublished": "1948",
+  "publication": {
+      "startDate" : "1948",
+      "location": {
+         "addressLocality" : "La Habana",
+         "addressCountry" : "CUBA"
+       }
+  },
+  "provider": {
+      "@id": "http://lildbi.sld.cu/organization/CU1.1",
+      "branchCode" : "CU1.1"
+   },
+   "about":[ 
+    {
+      "@value": "Uréter-cirug",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Cistectomía-métodos",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Humanos",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Femenino",
+      "@language": "es"
+    } 
+   ],
+   "pagination": 61,
+   "inSupportOf": "Doctor",
+   "_id": 1,
+   "typeOfLiterature": "Tesis",
+   "levelOfTreatment": "monográfico",
+   "presentedTo": {
+      "@id": "http://lildbi.sld.cu/organization/UH",
+      "branchCode": "UH",
+      "name": {
+          "@value": "Universidad de La Habana",
+          "@language": "es"
+      },
+      "department":{
+          "@value": "Facultad de Medicina",
+          "@language": "es"
+      }
+   },
+   "database": "TEMED",
+   "locatedIn": {
+      "institution":{
+        "@id": "http://lildbi.sld.cu/organization/CU1.1",
+        "branchCode" : "CU1.1"
+      },
+      "clasificationNumber": "WJ 400",
+      "autorNumber": "Cos",
+      "parts": "1948",
+      "inventory": "4964" 
+   },
+   "subjectLimit": [
+      {
+        "@value": "Humanos",
+        "@language": "es"
+      },
+      {
+        "@value": "Femenino",
+        "@language": "es"
+      }
+   ],    
+   "primarySubject":[ 
+    {
+      "@value": "Cirugia",
+      "@language": "es"
+    }, 
+    {
+      "@value": "Historia de la Medicina",
+      "@language": "es"
+    }, 
+    {
+      "@value" : "Investigación",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Trasplantes",
+      "@language" : "es"
+    } 
+   ],
+   "descriptiveInformation": {
+      "detailType" : "ilus"
+   },
+  "note": {
+      "motivation" : "General",
+      "body": "Urología",
+      "@language" : "es"
+  }, 
+   "registerCreationDate": "2010/05/30",
+   "registerModificationDate": "2013/10/03",
+   "documentalist": "MMM"
+}

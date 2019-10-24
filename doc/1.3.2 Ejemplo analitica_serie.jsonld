@@ -1,0 +1,421 @@
+<v1>CU1.1</v1>
+<v2>7</v2>
+<v3>CU1.1
+      <a>WI 200</a>
+      <c>259</c>
+   </v3>
+<v4>TRAMED</v4>
+<v5>S</v5>
+<v6>as</v6>
+<v9>a</v9>
+<v10>
+Wurtz, R
+      <s1>Hospital, Chicago</s1>
+      <s2>Division of Infectious Disease, Cook County</s2>
+      <c>Illinois</c>
+      <p>USA</p>
+      <r>aut</r>
+   
+</v10>
+<v12>
+Cyclospora: a newly identified intestinal pathogen of humans/Ciclospora: un pat贸geno intestinal de los humanos recientemente identificado
+      <i>es</i>
+   
+</v12>
+<v14>
+      <f>620</f>
+      <l>623</l>
+   </v14>
+<v30>Clin Infect Dis</v30>
+<v31>18</v31>
+<v32>4</v32>
+<v40>es</v40>
+<v64>1994</v64>
+<v65>19940000</v65>
+<v71>Revisi贸n</v71>
+<v71>Art铆culo de Revista traducido</v71>
+<v76>Humanos</v76>
+<v76>Animales</v76>
+<v83>
+A number of reports over the last several years have linked a previously unidentified acid-fast organism with prolonged diarrhea in humans. Initially thought to be a cyanobacterium, the organism has been identified as a coccidian protozoan of the genus Cyclospora, and the name Cyclospora cayetanensis has been proposed. Organisms that resemble Cyclospora protozoa have been discovered in human stool samples around the world and have been isolated from children, immunocompetent adults, and human immunodeficiency virus (HIV)-seropositive individuals. The apparently waterborne organisms cause disease predominantly in summer months. In wet mounts of fresh stool specimens, the organisms are wrinkled spheres of 8-9 microns in diameter, with well-defined nonrefractile external walls and internal granular material, and resemble large oocysts of Cryptosporidium species. Organisms fluoresce under ultraviolet illumination. Formalin-preserved oocysts are variably acid-fast, and the results of staining with the modified carbolfuchsin technique (which is used to stain Cryptosporidium species) range from no staining to deep-red staining. The clinical syndrome is characterized by watery diarrhea (approximately 6 stools/day), nausea, anorexia, abdominal cramping, fatigue, and weight loss. Diarrhea appears to be self-limiting in the immunocompetent host but may be prolonged in patients with advanced HIV infection. Symptoms have abated in a handful of people treated with trimethoprim-sulfamethoxazole. Many questions remain to be answered about this newly identified pathogen (AU)
+      <i>en</i>
+   
+</v83>
+<v84>2012-06-20</v84>
+<v87>
+
+      <d>Coccidiosis</d>
+      <s>epidemiol</s>
+   
+</v87>
+<v87>
+
+      <d>Coccidiosis</d>
+      <s>parasitol</s>
+   
+</v87>
+<v87>
+      <d>Coccidiosis</d>
+      <s>transm</s>
+   </v87>
+<v87>
+      <d>Diarrea</d>
+      <s>parasitol</s>
+   </v87>
+<v87>
+      <d>Eucoccidiida</d>
+      <s>clas</s>
+   </v87>
+<v87>
+      <d>Eucoccidiida</d>
+      <s>aisl</s>
+   </v87>
+<v87>
+
+      <d>Eucoccidiida</d>
+      <s>patogen</s>
+   
+</v87>
+<v91>
+20101112
+      <i>10:57:58</i>
+      <f>11:02:52</f>
+      <t>0:4:54</t>
+   
+</v91>
+<v92>RC</v92>
+<v98>FONTE</v98>
+<v110>|</v110>
+<v113>p</v113>
+<v899>LILDBI-WEB 1.7</v899>
+<v93>
+20120913
+      <i>15:12:16</i>
+      <f>15:12:23</f>
+      <t>0:0:7</t>
+   
+</v93>
+
+{
+  "@context": "http://lildbi.sld.cu/ctx/context.jsonld",
+  "@id" : "http://lildbi.sld.cu/document/1234",
+  "@type": "Article",
+  "author": {
+     "@id" : "http://lildbi.sld.cu/person/66",
+     "name": "Wurtz, R",
+     "affiliation": [
+         "Hospital, Chicago",
+         "Division of Infectious Disease, Cook County"
+     ],
+     "address": {
+        "addresLocality": "Illinois",
+        "addressCountry": "USA"
+     }
+   }, 
+   "name": [ 
+    {
+      "@value" : "Cyclospora: a newly identified intestinal pathogen of humans",
+      "@language" : "en"
+    }, 
+    {
+      "@value" : "Ciclospora: un pat贸geno intestinal de los humanos recientemente identificado",
+      "@language" : "es"
+    } 
+  ],
+  "inLanguage": "es",
+  "pageStart": 620,
+  "pageEnd": 623,
+  "isPartOf":{
+      "@id" : "http://lildbi.sld.cu/document/333",
+      "@type": [
+            "PublicationVolume", 
+            "Periodical"
+      ], 
+      "name": {
+         "@value" : "Clin Infect Dis",
+         "@language" : "en"
+      }, 
+      "volumeNumber": "18"
+  },
+  "datePublished": "1994",
+  "issueNumber": 4,
+  "provider": {
+      "@id" : "http://lildbi.sld.cu/organization/CU1.1",
+      "branchCode" : "CU1.1"
+   },
+   "genre":[
+    {
+      "@value" : "Revisi贸n",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Art铆culo de Revista traducido",
+      "@language" : "es"
+    }
+   ],
+   "about":[ 
+    {
+      "@value" : "Animales",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Humanos",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Coccidiosis-epidemiol",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Coccidiosis-parasitol",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Coccidiosis-transm",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Diarrea-parasitol",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Eucoccidiida-clas",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Eucoccidiida-aisl",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Eucoccidiida-patogen",
+      "@language" : "es"
+    } 
+   ],
+   "description": {
+      "@value" : "A number of reports over the last several years have linked a previously unidentified acid-fast organism with prolonged diarrhea in humans. Initially thought to be a cyanobacterium, the organism has been identified as a coccidian protozoan of the genus Cyclospora, and the name Cyclospora cayetanensis has been proposed. Organisms that resemble Cyclospora protozoa have been discovered in human stool samples around the world and have been isolated from children, immunocompetent adults, and human immunodeficiency virus (HIV)-seropositive individuals. The apparently waterborne organisms cause disease predominantly in summer months. In wet mounts of fresh stool specimens, the organisms are wrinkled spheres of 8-9 microns in diameter, with well-defined nonrefractile external walls and internal granular material, and resemble large oocysts of Cryptosporidium species. Organisms fluoresce under ultraviolet illumination. Formalin-preserved oocysts are variably acid-fast, and the results of staining with the modified carbolfuchsin technique (which is used to stain Cryptosporidium species) range from no staining to deep-red staining. The clinical syndrome is characterized by watery diarrhea (approximately 6 stools/day), nausea, anorexia, abdominal cramping, fatigue, and weight loss. Diarrhea appears to be self-limiting in the immunocompetent host but may be prolonged in patients with advanced HIV infection. Symptoms have abated in a handful of people treated with trimethoprim-sulfamethoxazole. Many questions remain to be answered about this newly identified pathogen (AU)",
+      "@language" : "en"
+    }, 
+   "_id": 7,
+   "typeOfLiterature": "Serie",
+   "levelOfTreatment": "Analitica de serie",
+   "database": "TRAMED",
+   "locatedIn": {
+      "institution":{
+        "@id" : "http://lildbi.sld.cu/organization/CU1.1",
+        "branchCode" : "CU1"
+      }  
+   },
+   "subjectLimit":[     
+    {
+      "@value" : "Animales",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Humanos",
+      "@language" : "es"
+    } 
+   ],
+   "primarySubject":[ 
+    {
+      "@value" : "Coccidiosis-epidemiol",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Coccidiosis-parasitol",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Coccidiosis-transm",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Diarrea-parasitol",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Eucoccidiida-clas",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Eucoccidiida-aisl",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Eucoccidiida-patogen",
+      "@language" : "es"
+    } 
+   ],
+   "registerCreationDate": "2010/11/12",
+   "registerModificationDate": "2012/09/13",
+   "transferToDB": "2012-06-20",
+   "documentalist": "RC"
+}
+
+
+
+<v1>CU1</v1>
+<v2>1</v2>
+<v3>Biblioteca M閐ica Nacional</v3>
+<v4>CUMED</v4>
+<v5>S</v5>
+<v6>as</v6>
+<v10>Guerra Vald閟, R</v10>
+<v12>Conceptos actuales de la cirugia experimental</v12>
+<v13>Actual concepts of experimental surgery</v13>
+<v14>89-98</v14>
+<v30>Rev. cuba. cir</v30>
+<v31>22</v31>
+<v32>2</v32>
+<v40>Es</v40>
+<v62>Editorial de Ciencias M閐icas</v62>
+<v64>1983</v64>
+<v65>19830000</v65>
+<v66>La Habana</v66>
+<v67>CUBA</v67>
+<v76>Animales</v76>
+<v87>Cirugia</v87>
+<v87>Historia de la Medicina</v87>
+<v87>Investigaci髇</v87>
+<v87>Trasplantes</v87>
+<v90>b</v90>     
+<v91>19950000</v91>
+<v92>IAV</v92>
+<v93>
+20110401
+      <i>14:20:33</i>
+      <f>14:22:15</f>
+      <t>0:1:42</t>
+   
+</v93>
+<v99>016097</v99>    (reservado)
+<v100>               (reservado)
+Biblioteca M閐ica Nacional, 23 esq. N, Vedado, Tel. 32-4317, email:bmn@bmn1.sld.cu
+</v100>
+<v100>
+23 esq. N, Vedado, T閘. 32-4317, email: bmn@bmn1.sld.cu
+</v100>
+<v108>                (no existe )
+23 esq. N, Vedado, T閘. 32-4317, email: bmn@bmn1.sld.cu23 esq. N, Vedado, T閘. 32-4317, email: bmn@bmn1.sld.cu
+</v108>
+
+{
+  "@context": "http://lildbi.sld.cu/ctx/context.jsonld",
+  "@id" : "http://lildbi.sld.cu/document/123",
+  "@type": "schema:Article",
+  "author": {
+     "@id" : "http://lildbi.sld.cu/person/38",
+     "name": "Guerra Vald閟, R"
+   }, 
+   "name": [ 
+    {
+      "@value" : "Conceptos actuales de la cirugia experimental",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Actual concepts of experimental surgery",
+      "@language" : "en"
+    } 
+  ],
+  "inLanguage": "es",
+  "isPartOf":{
+      "@id" : "http://lildbi.sld.cu/document/10",
+      "@type": [
+            "PublicationVolume", 
+            "Periodical"
+      ], 
+      "name": {
+         "@value" : "Rev. cuba. cir",
+         "@language" : "es"
+      }, 
+      "volumeNumber": "22", 
+      "publisher": "Editorial de Ciencias M閐icas"
+  },
+  "datePublished": "1983",
+  "pageStart": "89", 
+  "pageEnd": "98", 
+  "issueNumber": "2",
+  "publication": {
+      "startDate" : "1983",
+      "location" : {
+         "addressLocality" : "La Habana",
+         "addressCountry" : "CUBA"
+       }
+  },
+  "provider": {
+      "@id" : "http://lildbi.sld.cu/organization/CU1",
+      "branchCode" : "CU1",
+      "name" : {
+         "@value" : "Biblioteca M閐ica Nacional",
+         "@language" : "es"
+       }
+   },
+   "about":[ 
+    {
+      "@value" : "Cirugia",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Historia de la Medicina",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Investigaci髇",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Trasplantes",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Animales",
+      "@language" : "es"
+    } 
+   ],
+   "_id": 1,
+   "typeOfLiterature": "Serie",
+   "levelOfTreatment": "Analitica de serie",
+   "database": "CUMED",
+   "locatedIn": {
+      "institution":{
+        "@id" : "http://lildbi.sld.cu/organization/CU1",
+        "branchCode" : "CU1",
+        "name" : {
+           "@value" : "Biblioteca M閐ica Nacional",
+           "@language" : "es"
+        },
+        "address": {    
+          "@type": "PostalAddress",
+          "addressLocality" : "Vedado, La Habana",
+          "addressCountry" : "CUBA",
+          "streetAddress": "23 esq. N"
+        },
+        "email": "bmn@bmn1.sld.cu",
+        "telephone": "( 53 7) 32-4317"
+      }  
+   },
+   "subjectLimit":     {
+      "@value" : "Animales",
+      "@language" : "es"
+    }, 
+   "primarySubject":[ 
+    {
+      "@value" : "Cirugia",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Historia de la Medicina",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Investigaci髇",
+      "@language" : "es"
+    }, 
+    {
+      "@value" : "Trasplantes",
+      "@language" : "es"
+    } 
+   ],
+   "registerCreationDate": "1995",
+   "registerModificationDate": "2014/04/01",
+   "documentalist": "IAV"
+}
